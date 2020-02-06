@@ -22,3 +22,4 @@ foo_file.close()
 # YOUR CODE HERE
 bar_file = open('./src/bar.txt', 'w')
 bar_file.write("This is a new test of the century. Wow I wrote 'boogers' in a file, that I never even created how wacky is that. Swag. Yeet.")
+bar_file.close()

@@ -13,15 +13,16 @@ print(x)
 
 # Using y, change x so that it is [1, 2, 3, 4, 8, 9, 10]
 # YOUR CODE HERE
-print(x + y)
+x.extend(y)
+print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 10]
 # YOUR CODE HERE
-print(x + y[1:])
+x.remove(8)
+print(x)
 
 # Change x so that it is [1, 2, 3, 4, 9, 99, 10]
 # YOUR CODE HERE
-x.extend(y)
 x.insert(-1, 99)
 print(x)
 

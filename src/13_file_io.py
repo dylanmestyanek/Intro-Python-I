@@ -10,7 +10,7 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 # Note: pay close attention to your current directory when trying to open "foo.txt"
 
 # YOUR CODE HERE
-foo_file = open('./src/foo.txt')
+foo_file = open('./foo.txt')
 print(foo_file.read())
 foo_file.close()
 
@@ -20,6 +20,6 @@ foo_file.close()
 # sure that it contains what you expect it to contain
 
 # YOUR CODE HERE
-bar_file = open('./src/bar.txt', 'w')
+bar_file = open('./bar.txt', 'w')
 bar_file.write("This is a new test of the century. Wow I wrote 'boogers' in a file, that I never even created how wacky is that. Swag. Yeet.")
 bar_file.close()

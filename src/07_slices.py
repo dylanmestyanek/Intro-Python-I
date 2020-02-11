@@ -28,7 +28,6 @@ print('\n [Exercise 5]:', a[1:])
 
 # Output every element except the last one: [2, 4, 1, 7, 9]
 print('\n [Exercise 6]:', a[:-1])
-print()
 
 # For string s...
 
